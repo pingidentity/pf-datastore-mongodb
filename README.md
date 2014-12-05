@@ -1,17 +1,16 @@
-pf-datastore-mongodb
-====================
+#pf-datastore-mongodb
 
-## Overview
+### Overview
 
 PingFederate custom data store for MongoDB. Allows PingFederate to retrieve attributes from a MongoDB data source.
 
 
-## Author
+### Author
 
 Paul Meyer (pmeyer@pingidentity.com)
 
 
-## System Requirements / Dependencies
+### System Requirements / Dependencies
 
 Requires:
  - PingFederate 7.2.x or higher
@@ -19,7 +18,7 @@ Requires:
  - Apache Commons logging
 
  
-## Installation
+### Installation
  
 1. Compile the plugin in (refer to the [PingFederate server SDK documentation] for details on compiling PingFederate plug-ins)
 2. Copy the resulting .jar file to the <pf_home>/server/default/deploy folder (on all nodes and admin instances).
@@ -28,7 +27,7 @@ Requires:
 [PingFederate server SDK documentation]: http://documentation.pingidentity.com/display/PF/SDK+Developer%27s+Guide
 
 
-## Configuration
+### Configuration
 
 1. Add a new data store under: System Settings > Data Stores
 2. Select the "Custom" data store type
