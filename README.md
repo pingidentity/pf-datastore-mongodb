@@ -5,11 +5,6 @@
 PingFederate custom data store for MongoDB. Allows PingFederate to retrieve attributes from a MongoDB data source.
 
 
-### Author
-
-Paul Meyer (pmeyer@pingidentity.com)
-
-
 ### System Requirements / Dependencies
 
 Requires:
@@ -37,4 +32,6 @@ Requires:
 You can now use the MongoDB data store to retrieve attributes during an attribute lookup. For example retrieving attributes for an OAuth 2.0 access token contract.
 
 
+### Disclaimer
 
+This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the mailing list, the Github issues tracker or the author pmeyer@pingidentity.com directly See also the DISCLAIMER file in this directory.
