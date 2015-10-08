@@ -24,14 +24,16 @@ Requires:
 
 ### Configuration
 
-1. Add a new data store under: System Settings > Data Stores
-2. Select the "Custom" data store type
-3. Name the instance and select "MongoDB Data Store" as the type
-4. Refer to the inline documentation to configure your MongoDB instance details
+Once the plug-in has been deployed and the PingFederate instance restarted, launch the PingFederate admin console:
 
-You can now use the MongoDB data store to retrieve attributes during an attribute lookup. For example retrieving attributes for an OAuth 2.0 access token contract.
+1. Add a new datastore instance under: Server Configuration > Data Stores
+2. Select "Custom" from the options
+3. Name the instance and select the appropriate datastore from the "type" list
+4. Refer to the inline documentation to configure the datastore
 
 
 ### Disclaimer
 
-This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the mailing list, the Github issues tracker or the author pmeyer@pingidentity.com directly See also the DISCLAIMER file in this directory.
+This software is open sourced by Ping Identity but not supported commercially as such. Any questions/issues should go to the Github issues tracker or discuss on the [Ping Identity developer communities] . See also the DISCLAIMER file in this directory.
+
+[Ping Identity developer communities]: https://community.pingidentity.com/collaborate
