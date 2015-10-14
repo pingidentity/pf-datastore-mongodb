@@ -9,7 +9,7 @@ PingFederate custom data store for MongoDB. Allows PingFederate to retrieve attr
 
 Requires:
  - PingFederate 7.2.x or higher
- - Mongo Java driver
+ - MongoDB Java driver
  - Apache Commons logging
 
  
